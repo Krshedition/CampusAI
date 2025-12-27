@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CampusAI – AI Complaint Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="student">
+
+  <!-- STUDENT DASHBOARD WRAPPER -->
+  <div class="student-dashboard">
+
+    <h2>CampusAI – Complaint Analyzer (Gemini)</h2>
+    
+
+    <div style="display:flex; gap:12px; margin-bottom:12px;">
+      <button onclick="login()">Login with Google</button>
+      <button onclick="logout()">Logout</button>
+    </div>
+
+    <p id="user" style="margin-bottom:16px; color:#9aa4b2;"></p>
+
+    <textarea
+      id="complaint"
+      placeholder="Describe your campus problem in detail..."></textarea>
+
+    <button onclick="analyzeComplaint()">Analyze with AI</button>
+
+    <pre id="result"></pre>
+
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
