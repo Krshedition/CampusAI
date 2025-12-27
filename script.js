@@ -37,7 +37,7 @@ async function loginHandler() {
   await login(); // that's it
 }
 
-const API_KEY = "AIzaSyBNACXqlTyX1B0ZIrszztx1JnIV8rGLTJs";
+const GEMINI_API_KEY = "YOUR_GEMINI_API_KEY";
 
 async function analyzeComplaint() {
   if (!window.currentUser) {
