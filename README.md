@@ -58,12 +58,12 @@ CampusAI uses **Google Gemini API** and **Firebase** to:
 ---
 
 ## 📹 Demo Video
-👉 *Link will be added here*
+👉 https://youtu.be/sAvP3L2HQpg?si=h47gUJXZEw6xhXkw
 
 ---
 
 ## 🌍 Live Project
-👉 *Firebase hosting URL*
+👉 https://campusai-acacf.web.app/
 
 ---
 
