@@ -3,12 +3,12 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.7.1/firebase
 import { getAuth } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC8bvDpEdZbMSySs1QE0XNpFVIMsG2-LmM",
-  authDomain: "campusai-acacf.firebaseapp.com",
-  projectId: "campusai-acacf",
-  storageBucket: "campusai-acacf.firebasestorage.app",
-  messagingSenderId: "155483116794",
-  appId: "1:155483116794:web:e4e39ea281ed30a598a543"
+  apiKey: "YOUR_FIREBASE_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
 };
 
 const app = initializeApp(firebaseConfig);
